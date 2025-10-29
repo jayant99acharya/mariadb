@@ -31,7 +31,7 @@ MariaDB Vector Intelligence Hub brings the power of vector databases and RAG (Re
 ### Installation
 
 Clone the repository
-git clone https://github.com/yourusername/mariadb-vector-magic.git
+git clone https://github.com/jayant99acharya/mariadb.git
 cd mariadb-vector-magic
 
 Install dependencies
@@ -199,9 +199,9 @@ MIT License - see [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Author**: Your Name  
-**Email**: your.email@example.com  
-**Hackathon**: MariaDB Bangalore Hackathon 2025  
+**Author**: Jayant Acharya  
+**Email**: jayant99acharya@gmail.com  
+**Hackathon**: MariaDB  Hackathon 2025  
 **Track**: Integration
 
 ---
