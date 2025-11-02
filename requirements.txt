@@ -1,7 +1,37 @@
-mariadb>=1.1.0
-ipython>=7.0.0
-jupyter>=1.0.0
-sentence-transformers>=2.0.0
-groq>=0.4.0
-tqdm>=4.65.0
-numpy>=1.21.0
+# Core dependencies for MariaDB Vector Magics
+# Production-ready version pinning following semantic versioning
+
+# Database connectivity
+mariadb>=1.1.0,<2.0.0
+
+# IPython/Jupyter integration
+ipython>=7.0.0,<9.0.0
+jupyter>=1.0.0,<2.0.0
+
+# Machine Learning and Embeddings
+sentence-transformers>=2.0.0,<3.0.0
+numpy>=1.21.0,<2.0.0
+torch>=1.9.0,<3.0.0
+
+# Progress tracking and utilities
+tqdm>=4.65.0,<5.0.0
+
+# Security and secrets management
+cryptography>=3.4.0,<42.0.0
+
+# Optional dependencies for RAG functionality
+# Install with: pip install mariadb-vector-magics[rag]
+groq>=0.4.0,<1.0.0
+
+# Development dependencies (install with: pip install mariadb-vector-magics[dev])
+# pytest>=7.0.0,<8.0.0
+# pytest-cov>=4.0.0,<5.0.0
+# black>=22.0.0,<24.0.0
+# flake8>=5.0.0,<7.0.0
+# mypy>=1.0.0,<2.0.0
+# pre-commit>=2.20.0,<4.0.0
+
+# Documentation dependencies (install with: pip install mariadb-vector-magics[docs])
+# sphinx>=5.0.0,<8.0.0
+# sphinx-rtd-theme>=1.0.0,<3.0.0
+# myst-parser>=0.18.0,<3.0.0
