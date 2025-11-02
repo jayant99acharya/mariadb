@@ -72,6 +72,16 @@ cd mariadb
 pip install -e ".[dev]"
 ```
 
+### Docker Run
+```bash
+mariadb % docker run -d \                    
+  --name mariadb-vector-test \
+  -e MYSQL_ROOT_PASSWORD=test_password \
+  -e MYSQL_DATABASE=test_vectordb \
+  -p 3306:3306 \
+  mariadb:11.7
+```
+
 ## Quick Start
 
 ### 1. Load the Extension
